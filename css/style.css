@@ -1,0 +1,667 @@
+.ph {
+  height: 200px;
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+}
+.user-ph {
+  background-color: #aaa;
+  padding: 20px;
+  margin-top: 10px;
+}
+.ph50 {
+  height: 50px;
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+}
+.box {
+  margin-bottom: 20px;
+}
+.box-radius {
+  border-radius: 50%;
+}
+p {
+  margin: 10px 0;
+}
+.user-card p:last-child{
+  padding-bottom: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/********** Navbar  **********/
+
+.nav-header {
+  padding: 30px;
+  text-align: center;
+  background-color: goldenrod;
+  color: #fff;
+}
+#nav-links ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav-item {
+  float: left;
+}
+.nav-item a, .nav-item span{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 400;
+}
+.nav-item a:hover {
+  background-color: #fff;
+  color: #333;
+}
+.nav-left {
+  width: 100%;
+  align-items: center;
+}
+.nav-right {
+  width: 25%;
+}
+.nav-left,
+.nav-right,
+.nav-icon {
+  background-color: #333;
+  float: left;
+}
+.nav-icon {
+  width: 100%;
+  display: none;
+}
+
+/******     Footer     ********/
+.footer {
+  text-align: center;
+  background-color: #333;
+  padding: 2rem 1rem;
+  color: #fff;
+}
+.footer a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/******* Login Part **********/
+label {
+  font-weight: 700;
+}
+input,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.btn-login {
+  width: 30%;
+}
+.sing-up {
+  text-align: center;
+  padding-top: 0.3rem;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  position: absolute;
+  background-color: #fff;
+  width: 25%;
+  top: 181px;
+  left: 70%;
+  display: none;
+}
+.card-section {
+  padding: 2px 16px;
+}
+
+/********     Forum      *********/
+.forum-item-stats {
+  text-align: right;
+  padding-right: 10px;
+}
+.forum-item-last {
+  padding-left: 10px;
+}
+.forum h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.forum .forum-meta p {
+  font-style: italic;
+}
+.forum-item {
+  border-bottom: 1px solid rgb(196, 196, 196);
+  padding-top: 10px;
+}
+.forum-item:first-child {
+  border-top: 1px solid rgb(221, 221, 221);
+}
+.forum {
+  background-color: #f1eded;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.form-main {
+  padding-left: 20px;
+}
+.form-header {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(221, 221, 221);
+  border-left: 1px solid rgb(221, 221, 221);
+  border-right: 1px solid rgb(221, 221, 221);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.forum-item-last a:hover {
+  color: #193155;
+  transition: 0.3s;
+}
+.forum-topic a:hover {
+  color: #18bc9c;
+  transition: 0.3s;
+}
+.forum a {
+  color: #212529;
+}
+
+/************** Forum Page CSS *************/
+.forum-container {
+  background-color: #edf0f4;
+}
+.forum-detail-card,
+.sidebar {
+  background-color: #fff;
+}
+/****** Forum Page Sidebar *******/
+.sidebar,
+.card-main {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.sidebar-header {
+  font-size: 22px;
+  color: #333;
+  padding-bottom: 10px;
+}
+.sidebar-link {
+  padding-bottom: 5px;
+  padding-top: 3px;
+  padding-left: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.sidebar-link a {
+  color: #333;
+}
+.sidebar-link a:hover {
+  color: #18bc9c;
+  transition: 0.3s;
+}
+.sidebar-none {
+  display: none;
+}
+
+/****** Forum Detail Page ******/
+.forum-detail-user-img {
+  width: 125px;
+  padding: 10px 20px 0px 0px;
+}
+.forum-detail-card {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.forum-detail-top-context {
+  padding-bottom: 10px;
+}
+.forum-detail-comment {
+  margin-top: 15px;
+}
+.comment-textarea {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+.description-area {
+  border: 1px solid #edf0f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-top: 10%;
+  height: 100%;
+  background-color: #f8f8f8;
+  min-height: 200px;
+  max-height: 400px;
+}
+.description-area p {
+  letter-spacing: 0.2px;
+  font-size: 18px;
+  background-color: #f8f8f8;
+}
+.comment-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.ContainerBox{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.userBox{
+  max-width: 350px;
+}
+
+
+/******  Registe Page  ******/
+.card-register {
+  border: 1px solid #edf0f4;
+  padding: 20px;
+}
+.register-items {
+  padding-top: 10px;
+}
+.register-items input,
+.register-items select {
+  width: 100%;
+  padding: 15px;
+  display: inline-block;
+  border: none;
+  background-color: #f1ededfa;
+}
+.register-items input:focus,
+.register-item textarea:focus {
+  background-color: rgb(223, 222, 222);
+  outline: none;
+}
+.register-item {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.container {
+  padding: 20px;
+}
+.radio-box input,
+.check-box input,
+.option-box input {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+}
+.card-register button {
+  width: 40%;
+}
+.register-item textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background-color: #f1ededfa;
+  resize: none;
+}
+.card-register h1 {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+/*****  User List  *****/
+.user-container {
+  padding: 20px;
+  display: inline-block;
+  z-index: 1;
+}
+.user-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.title {
+  color: #aaa;
+  font-size: 16px;
+}
+
+.user-card img {
+  width: 100%;
+}
+
+/****  Gallery Page  ****/
+
+.photo-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.603);
+  cursor: pointer;
+}
+.input-file{
+  width: 80%;
+  margin-left: 20px;
+}
+
+/* Detail */
+iframe {
+  z-index: -1;
+}
+.pos-ab {
+  position: absolute;
+}
+
+/* All Time Use*/
+.validSapn {
+  color: red;
+  font-size: 14px;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.2;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  float: left;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  float: left;
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.33%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col {
+  width: 100%;
+}
+.p0 {
+  padding: 0 !important;
+}
+.p1 {
+  padding: 1% !important;
+}
+.p2 {
+  padding: 2% !important;
+}
+.p3 {
+  padding: 3% !important;
+}
+.p4 {
+  padding: 4% !important;
+}
+.p5 {
+  padding: 5% !important;
+}
+.mt-2 {
+  margin-top: 2% !important;
+}
+.text-align-center {
+  text-align: center;
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.hidden {
+  display: none;
+}
+.pt-4 {
+  padding-top: 4% !important;
+}
+.btn {
+  font-weight: 400;
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btn-forum{
+  margin-right: 10px;
+}
+.btn-sm{
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  padding: 0.3rem;
+}
+.btn-danger{
+  background-color: #b23b3b;
+  border-color: #b23b3b;
+  color: #fff;  
+}
+.btn-edit{
+  background-color: #00B2C2;
+  border-color: #00B2C2;
+  color: #fff;
+}
+.btn-Add{
+  background-color: #00B2C2;
+  border-color: #00B2C2;
+  color: #fff;
+  padding: 1rem 1rem;
+  margin: 10px 20px 0px 20px;
+}
+
+.btn-outline {
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
+}
+.btn-outline:hover {
+  color: #212529;
+  background-color: #fff;
+}
+.btn-primary {
+  background-color: #18bc9c;
+  border-color: #18bc9c;
+  color: #fff;
+  padding: 0.6rem 0.6rem;
+}
+.btn-logout {
+  background-color: #b23b3b;
+  border-color: #b23b3b;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 0;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.right {
+  float: right;
+}
+.italic {
+  font-style: italic;
+}
+.display-block {
+  display: block;
+}
+.no-pad {
+  padding: 0 !important;
+}
+.sHidden{
+  display: none;
+}
+/********     @Media    *********/
+@media screen and (min-width: 1000px) {
+  .user-ph {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .col-9 {
+    width: 100%;
+  }
+  .sidebar-none {
+    width: 100% !important;
+    display: block;
+  }
+  .sidebar-wis {
+    display: none;
+  }
+  .col-3 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .nav-right li {
+    display: none !important;
+  }
+  .nav-left {
+    width: 100%;
+  }
+  #card {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .btn {
+    font-weight: 200;
+  }
+  .btn-login {
+    padding: 0.7rem 1rem !important;
+    width: 100% !important;
+  }
+  .card {
+    display: block !important;
+  }
+  .sHidden{
+    display: block;
+    float: right;
+  }
+  .col-4-sm{
+    width: 100% !important;
+    text-align: center;
+  }
+  .col-8-sm{
+    width: 100% !important;
+  } 
+  .description-area{
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 650px) {
+  .nav-left {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .nav-right li,
+  #nav-links.responsive li:not(:first-child) {
+    display: none !important;
+  }
+  #main,
+  .hidden {
+    display: block !important;
+  }
+  html {
+    font-size: 12px;
+  }
+  #nav-links .nav-left li {
+    width: 100% !important;
+  }
+  .nav-left {
+    padding-left: 0;
+    display: none;
+  }
+  .nav-icon {
+    display: block;
+    padding-left: 46%;
+  }
+  #back {
+    display: none;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .card-register .col-6 {
+    width: 100%;
+  }
+  .nav-item .s650{
+    padding: 0;
+  }
+  .s650 button{
+    padding: 0;
+    margin: 0;
+    width: 42px;
+    height: 42px;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .user-card h1{
+    font-size: 24px !important;
+  }
+}
